@@ -1,43 +1,76 @@
 html {
-	background-color: #eee;
+	background-color: #ccc;
 }
 
-.header {
+header {
 	background-color: azure;
-	padding: 20px 0px 20px 0px;
-}
-
-.main {
-	background-color: #eee;
-	padding-bottom: 70px;
-}
-
-.intro {
-	font-family: 'Trebuchet MS', Arial, sans-serif;
-	font-size: 16px;
-	padding: 20px 0px 20px 50px;
+	padding: 1.7vw 4vw 1.7vw 4vw;
 }
 
 #photo {
 	float: right;
 	height: 150px;
 	width: 150px;
-	border: 2px solid black;
+	border: 2px groove darkslategrey;
+  border-radius: 10px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+  	font-size: 26px;
+}
+
+.intro {
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	font-size: 16px;
+	padding: 1.7vw 0 1.7vw 4vw;
+}
+
+header nav {
+  margin-left: 4vw;
+}
+
+header nav a {
+  margin-right: 1.7vw;
+	font-size: 22px;
+  color: darkred;
+}
+
+main {
+	background-color: #eee;
+  padding-bottom: 15px;
+	margin-bottom: 40px;
+}
+
+main section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+main section:first-child{
+	margin-left: 2vw;
 }
 
 .title {
-	text-align: center;
-	margin: 10px 0px 0px 0px;
+	margin: 10px 0px 10px 3vw;
 }
 
 .topic {
-	border: 4px groove darkslategrey;
-	margin: 10px 4px 4px 4px;
-	padding: 0;
+	border: 3px groove darkslategrey;
+  border-radius: 10px;
+	padding-right: 1vw;
+  margin-right: 2vw;
 }
 
-.navbar li {
-	display: inline;
+.Experience {
+  width: 60vw;
+}
+
+.Education {
+  width: 32vw;
 }
 
 .contentItem li{
@@ -49,11 +82,4 @@ html {
 	font-weight: bold;
 	margin-top: 14px;
 	margin-bottom: 0px;
-}
-
-.navbar a {
-	position: relative;
-	left: 65px;
-	font-size: 22px;
-    color: darkred;
 }
